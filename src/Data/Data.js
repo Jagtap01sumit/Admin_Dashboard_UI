@@ -46,14 +46,14 @@ export const cardsData = [
   {
     title: "Sales",
     color: {
-      backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
-      boxShadow: "0px 10px 20px 0px #e0c6f5",
+      backGround: "linear-gradient(#271d83 0%, #4a9fd8 100%)",
+      boxShadow: " rgb(46 48 97) 0px 10px 20px",
     },
     barValue: 70,
     value: "25,970",
     png: UilUsdSquare,
     series: [
-      //expansion card
+      // expansion card
       {
         name: "Sales",
         data: [31, 40, 28, 51, 42, 109, 100],
@@ -63,8 +63,8 @@ export const cardsData = [
   {
     title: "Revenue",
     color: {
-      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
-      boxShadow: "0px 10px 20px 0px #FDC0C7",
+      backGround: "linear-gradient(#271d83 0%, #4a9fd8 100%)",
+      boxShadow: " rgb(46 48 97) 0px 10px 20px",
     },
     barValue: 80,
     value: "14,270",
@@ -79,9 +79,8 @@ export const cardsData = [
   {
     title: "Expenses",
     color: {
-      backGround:
-        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
-      boxShadow: "0px 10px 20px 0px #F9D59B",
+      backGround: "linear-gradient(#271d83 0%, #4a9fd8 100%)",
+      boxShadow: " rgb(46 48 97) 0px 10px 20px",
     },
     barValue: 60,
     value: "4,270",

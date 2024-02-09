@@ -23,7 +23,7 @@ export default function CustomerReview() {
       },
       stroke: {
         curve: "smooth",
-        colors: ["#ff929f"],
+        colors: ["white"],
       },
       tooltip: {
         x: {
@@ -55,7 +55,12 @@ export default function CustomerReview() {
   };
   return (
     <div className="CustomerReview">
-      <Chart options={data.options} series={data.series} type="area" />
+      <Chart
+        style={{ color: "white" }}
+        options={data.options}
+        series={data.series}
+        type="area"
+      />
     </div>
   );
 }

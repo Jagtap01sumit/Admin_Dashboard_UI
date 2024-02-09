@@ -6,7 +6,7 @@ import Table from "../Table/Table";
 export default function MainDashboard() {
   return (
     <div className="MainDash">
-      <h1>Dahsboard</h1>
+      <h1>Dashboard</h1>
       <Cards />
 
       <Table />

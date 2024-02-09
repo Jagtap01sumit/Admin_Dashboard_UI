@@ -85,6 +85,7 @@ function ExpandedCard({ params, setExpanded }) {
       },
       xaxis: {
         type: "datetime",
+
         categories: [
           "2018-09-19T00:00:00.000Z",
           "2018-09-19T01:30:00.000Z",
@@ -109,7 +110,7 @@ function ExpandedCard({ params, setExpanded }) {
       <div style={{ alignSelf: "flex-end", cursor: "pointer", color: "white" }}>
         <UilTimes onClick={setExpanded} />
       </div>
-      <span>{params.title}</span>
+      <span className="expandedTitle">{params.title}</span>
       <div className="chartContainer">
         <Chart series={params.series} type="area" options={data.options} />
       </div>
