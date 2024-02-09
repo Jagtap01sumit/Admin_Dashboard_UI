@@ -1,6 +1,8 @@
 .Cards {
     display: flex;
     gap: 10px;
+    transition: all 300ms ease;
+
 }
 
 .parentContainer {
